@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Enemy
+  - EnemyRange
+  - Chapter0
+  - AmmoUI
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Obstacle
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Skybox
+    uniqueID: 763292327
+    locked: 0
+  - name: Distant
+    uniqueID: 418495389
+    locked: 0
+  - name: Background
+    uniqueID: 1064059523
+    locked: 0
+  - name: Character
+    uniqueID: 4153149743
+    locked: 0
+  - name: Foreground
+    uniqueID: 1308191449
+    locked: 0
+  - name: UI
+    uniqueID: 3875001735
+    locked: 0

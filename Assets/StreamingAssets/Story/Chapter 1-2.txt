@@ -1,0 +1,99 @@
+Yuno "อืม...ดูเหมือนว่ามันมีบางอย่างไม่ชอบมาพากลนะ" setBackground(Noon,false,1)  playMusic()
+
+Yuno "ยูบิ ช่วยส่งรายงานไปยังฝ่ายพิสูน์หลักฐานหน่อย"
+
+Yuno "แล้วบอกเขาว่ารบกวนตรวจสอบการเคลื่อนไหวของบัญชีนี้หน่อยสิ"
+
+Ubi "รับทราบครับ" setPosition(Ubi,0,0.5) move(Yuno,1,0)
+
+Yuno "เฮ้อ…. อีกหนึ่งวันที่ยาวกับคดีเดิมๆ"
+
+setBackground(fade,false,1) exit(Yuno) exit(Ubi)
+
+narrator "เวลาพักเที่ยง"
+
+narrator "ณ ร้านอาหารฝั่งตรงข้ามสำนักงาน IAD" setBackground(Restaurant,false,1)
+
+Yuno "วันนี้กินอะไรกันดีเน้อ"
+
+Yuno "ช่วยคิดหน่อยสิ ยูบิ"
+
+Ubi "ข้าวหมกไก่ดีไหมครับ, โอเปอเรเตอร์ ?"
+
+Yuno "ไม่เอาอะ เค้าเบื่อแล้ว"
+
+Ubi "ข้าวหน้าปลาแซลมอนย่างดีไหมครับ, โอเปอเรเตอร์ ?"
+
+Yuno "ดีเลย! ยูบิ"  changeExpression(Yuno,body,Yuno_smile02)
+
+Ubi "รับประทานคู่กับชาเขียวเย็นด้วยไหมครับ, โอเปอเรเตอร์"
+
+Yuno "อื้อๆ เอาดิๆ"  changeExpression(Yuno,body,Yuno_smile01)
+
+narrator "ยูโนะจึงตัดสินใจกินข้าวหน้าปลาแซลมอนย่างกับชาเขียว" exit(Yuno) exit(Ubi)
+
+narrator "ระหว่างที่ยูโนะกำลังจะทานข้าว"
+
+xxx "ยูโนะะะะะะะ" setPosition(xxx,0,0.5)
+
+Yuno "???" move(Yuno,1,0)
+
+Yuno "เอ๊ะ?!"
+
+Yuno "โยรุ งั้นหรอ?!"
+
+Yoru "อื้ม! วันนี้วันเกิดเรา เย็นนี้ไปฉลองวันเกิดกับเราไหมยูโนะ?" exit(xxx)
+
+Yuno "เออออออออ๋"
+
+Yuno "เดี๋ยวดูก่อนแล้วกัน ถ้าไม่ติดอะไรก็จะไปนะ"
+
+Yoru "อื้ม! ถ้าจะไปก็แชทหรือโทรมาเรานะ"
+
+Yuno "ok"  changeExpression(Yuno,body,Yuno_smile02)
+
+narrator "โยรุ เดินจากไป" exit(Yoru) exit(Yuno)
+
+Yuno "ไม่ยักรู้ว่าวันนี้เป็นวันเกิดเขาด้วยนะเนี่ย"  changeExpression(Yuno,body,Yuno_smile01)
+
+Ubi "โอเปอเรเตอร์จะไปงานเย็นนี้ไหมครับ" setPosition(Ubi,0,0.5) move(Yuno,1,0)
+
+Ubi "เผื่อจะได้ไปทำความรู้จักกับเพื่อนใหม่ๆ"
+
+Ubi "หรืออาจจะเป็นคนใหญ่คนโตด้วยครับ"
+
+Yuno "อืม น่าสนใจแหะ"
+
+Yuno "งั้นยูบิ, เช็คตารางงานหน่อยว่าวันนี้มีอะไรไหม"
+
+Ubi "ได้เลยครับ, โอเปอเรเตอร์"
+
+narrator "ยูบิกำลังตรวจเช็คตารางงานของยูโนะ" exit(Yuno) exit(Ubi)
+
+Ubi "ดูเหมือนว่าวันนี้จะไม่มีงานหรือนัดประชุมครับผม" setPosition(Ubi,0,0.5)
+
+Yuno "เยี่ยมไปเลย" move(Yuno,1,0)
+
+Yuno "งั้นเย็นนี้ไปกันเถอะ"  changeExpression(Yuno,body,Yuno_smile02)
+
+narrator "5 ชั่วโมงผ่านไป" exit(Ubi) exit(Yuno) playSound()
+
+Yoru "ฮัลโหล?" setPosition(Yoru,0,0.5) move(Yuno,1,0)
+
+Yuno "ไง นี่ยูโนะนะ เดี๋ยวเราจะไปฉลองวันเกิดแกอะ" move(Yuno,1,0)
+
+Yoru "OK"
+
+Yoru "เจอกันที่ Blue circle club ประมาณ 2 ทุ่มนะ"
+
+Yuno "โอเค เจอกันที่นั้นนะ"
+
+Yuno "บ๊ายบาย"
+
+Yoru "บาย" exit(Yoru) playSound()
+
+Ubi "ไปกันเถอะครับ, โอเปอเรเตอร์" setPosition(Ubi,0,0.5)
+
+Yuno "อื้อ!"
+
+NextCh

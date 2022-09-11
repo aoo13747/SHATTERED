@@ -1,0 +1,67 @@
+setBackground(01,false,1)  playMusic(Thai)
+
+narrator " ในโลกอนาคต 80 ปีข้างหน้าภาวะโลกร้อน"
+
+narrator " ทำให้เหลือที่ดินบนโลกไม่มาก" outUI
+
+narrator " จนกระทั่ง" playMusic(null) inUI
+
+narrator " มีการเปลี่ยนแปลงครั้งยิ่งใหญ่คนรุ่นเก่าได้จากโลกนี้ไป คนรุ่นใหม่เริ่มก้าวขึ้นมา" 
+
+narrator " จนกระทั่งในปี 2099 โลกได้มาถึงจุดรุ่งเรืองที่สุดในประวัติศาสตร์หรือเรียกได้ว่าเป็นยุคแห่งยูโทเปีย ซึ่งได้มีประเทศๆ หนึ่งชื่อว่า โคโคเอสเตสสตา " setBackground(04,false,1)
+
+narrator " เป็นประเทศที่มีความเจริญรุ่งเรืองและเต็มไปด้วยประวัติศาสตร์อันมากมาย"
+
+narrator " ซึ่งเป็นที่มาของความสำเร็จในการสร้างยุคยูโทเปียอันดีงามได้สำเร็จ"
+
+narrator " ไม่มีความเจ็บป่วย ไม่มีคนไรบ้าน สาธารณสุขสะอาดตอบโจทย์ประชาชน ประชาชนมีรายได้มั่นคง"
+
+narrator " แต่ทว่าทุกอย่างย่อมเป็นเหรียญ 2 ด้านเสมอ"
+
+setBackground(fade,false,1) 
+
+Chapter 0 - บทนำ
+
+Ubi " ถึงที่หมายแล้ว Operator" setPosition(Ubi,0,0.5) setBackground(03,false,1) 
+
+Yuno " Ubi ขอทราบแผนผังอาคารด้วย" move(Yuno,1,0)
+
+Ubi " รับทราบ" 
+
+  // แสดงภาพ // setForeground(    ,false,1)
+
+Ubi " เป้าหมายของภารกิจคือการยิงหัวตัวประ…..เพื่อความให้ความช่วยแก่ประชาชน"
+
+Yuno " รับทราบ เอาละมาลุยกันเลย"
+
+// Gameplay //
+
+narrator " ปัง ปัง ปัง ปัง" playSound(Auto_Bullet) playSound(Gunfire) playMusic(  ) 
+
+Yuno " Ubi!!!!! ขอตำแหน่งตัวประกันล่าสุดเดียวนี้!!!!!" 
+
+Ubi " รับทราบ"
+
+Ubi " Operator ตัวประกันอยู่ห้องถัดจากนี้ครับ"
+
+Yuno " รับทราบ  เอาละลุยรวดเดียวละนะ"
+
+narrator " บึบ " //พังประตู  playSound(door_kick)
+
+Yuno " ยอมแพ้ซะ นี้เจ้าที่ตำรวจ"
+
+Badguy " !!!" playSound(Gun_Slide) 
+
+Yuno " เห้ย!!!" 
+
+narrator " ปัง ปัง "  playMusic() playSound(Gunfire)  exit(Badguy)
+
+Yuno " สวยแตกหนึ่ง"
+
+Ubi " สิ้นสุดการจำลอง"
+
+Ubi " ยิงหัวตัวประกันได้สวย Operator"
+
+Yuno " NANI" playSound(mgsAlert) 
+
+// END Chapter 0 - บทนำ //

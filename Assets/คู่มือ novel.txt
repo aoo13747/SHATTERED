@@ -1,0 +1,15 @@
+setBackground(DeadTower,false,1) //ฉากหลัง set_ตำแหน่งฉาก B หรือ F (ชื่อฉาก , เปิด/ปิดค.เลื่อนไล , ความเร็ว)
+
+playMusic(Thai) //ตัวเล่น playMusic(ชื่อเพลง)
+
+playSound(Run) //ตัวเล่นเอฟเฟค
+
+setPosition(Ubi,0,1) //ตัวจัดตำแหน่ง (ชื่อตัวที่จะจัด , y , x) *ตำแหน่ง x y ไม่แน่นใจนะว่าสลับกันไหม
+
+changeExpression(Ubi,body,Ubi8) //เปลี่ยนรูป ปล.ต้องอยู่ใน sprite เดียวกัน (ชื่อตัว , ตำแหน่ง*มีแต่ตัว , ใช้รูปที่*เขียนเป็นชื่อ)
+
+Ubi "Let me FUCKING GO HOME BOY!!!!!!!"  // บทพูด | ชื่อตัว "บทพูด"
+
+narrator "Ah i feel not good about this...." // บทพูดแต่เป็นแบบพูดบรรยายไม่มีชื่อขึ้น
+
+move(Yuno,0.7,0) // เคลื่อนที่ (ชื่อตัว,x,y)

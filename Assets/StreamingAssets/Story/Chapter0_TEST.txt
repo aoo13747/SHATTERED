@@ -1,0 +1,7 @@
+﻿setBackground(DeadTower,false,1) playMusic(Thai)
+
+Ubi "Let me GOOOOOOOOOOOOOOO"setPosition(Ubi,0,1)
+Ubi "Let me FUCKING GO HOME BOY!!!!!!!" playSound(Run)
+Ubi "AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH" changeExpression(Ubi,body,Ubi8)
+narrator "Ah i feel not good about this...."
+Yuno "Shut up"  move(Yuno,0.7,0)

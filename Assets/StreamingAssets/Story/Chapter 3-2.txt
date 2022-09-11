@@ -1,0 +1,31 @@
+narrator "หลังจากที่ยูโนะหาข้อมูลเสร็จ..."  setBackground(fade,false,1)
+
+Yuno "เจ้าพวกนี้ ที่แท้ก็เป็นพวกเดียวกันหมดเลยหรอเนี่ย?!"
+
+Yuno "มิน่าหละ พวกมันทำอะไรก็ไม่ผิดเลยซักอย่าง"
+
+Yuno "แถมคนที่พูดความจริงกลับโดนคุกคามอีกต่างหากด้วย?!"
+
+narrator "ยูโนะหงุดหงิดมาก"  exit(Yuno)
+
+narrator "ยูโนะจึงตบโต๊ะอย่างฉุนเฉียว"
+
+narrator "ปังง!!!"  playSound(block_L_05)
+
+Ubi "จะเอาอย่างไรต่อไปดีครับ, โอเปอร์เรเตอร์"
+
+Yuno "..."  exit(Ubi)
+
+Yuno "ดูเหมือนว่าเราจะมีตัวเลือกไม่มากสินะ"
+
+Yuno "(จะเอาไงต่อดีหละทีนี้)"
+
+Yuno "(เราต้องเตรียมตัวแล้วหละ)"
+
+Yuno "(Hope for the best)"
+
+Yuno "(Prepare for the worse)"
+
+narrator "TO BE CONTINUED"  exit(Yuno)
+
+NextCh

@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 61c94ca3cd1792046b38f166ae8766c4
+  - enabled: 1
+    path: Assets/Scenes/ChapterIntro.unity
+    guid: 7ef2eabad3419344f853f572837ebcbb
+  - enabled: 1
+    path: Assets/Scenes/Chapter0_1.unity
+    guid: c77d6e9ec81fa314f9c13c9fceb68541
+  - enabled: 1
+    path: Assets/Scenes/Chapter0_Level.unity
+    guid: d9732710cd1aeff479a6c1515552dcd9
+  - enabled: 1
+    path: Assets/Scenes/Chapter0_2.unity
+    guid: 041b3457f6903cf4ea23e987ea4c5533
+  - enabled: 1
+    path: Assets/Scenes/Chapter1_1.unity
+    guid: 60f9ceb69d9c3eb478bec35592f3a434
+  - enabled: 1
+    path: Assets/Scenes/Chapter1_2.unity
+    guid: afbf25699d35954469c3a632b9aff42d
+  - enabled: 1
+    path: Assets/Scenes/Chapter2_1.unity
+    guid: c55e050f4a021c349836051fd6b7db36
+  - enabled: 1
+    path: Assets/Scenes/Chapter2_Level.unity
+    guid: 3191d8ef2d542ae4fa0e3862a4d6dfbd
+  - enabled: 1
+    path: Assets/Scenes/Chapter3_1.unity
+    guid: 0dd3ea7e37754d7458a0c866b892cc74
+  - enabled: 1
+    path: Assets/Scenes/Chapter3_Search.unity
+    guid: 990d82bbd2f4082409be82897a613087
+  - enabled: 1
+    path: Assets/Scenes/Chapter3_Doc/Chapter3_Doc1.unity
+    guid: a63a6d38cdc3d7342be54aef2647bb4d
+  - enabled: 1
+    path: Assets/Scenes/Chapter3_Doc/Chapter3_Doc2.unity
+    guid: 55ef0dd4df4c71940857af5148bfe532
+  - enabled: 1
+    path: Assets/Scenes/Chapter3_Doc/Chapter3_Doc3.unity
+    guid: 19e8c0eeb7c2406478becc5f0d25903d
+  - enabled: 1
+    path: Assets/Scenes/Chapter3_Doc/Chapter3_Doc4.unity
+    guid: c42e8efa9dfb6c34c892901fb02555a9
+  - enabled: 1
+    path: Assets/Scenes/Chapter3_Doc/Chapter3_Doc5.unity
+    guid: 9510de25edbc602499e91ee8e7c0f49a
+  - enabled: 1
+    path: Assets/Scenes/Chapter3_Doc/Chapter3_Doc6.unity
+    guid: 648396f025fddbf4ba3fdae47421cba6
+  - enabled: 1
+    path: Assets/Scenes/Chapter3_Doc/Chapter3_Doc7.unity
+    guid: 7b53d1e26aea3b64c91acf039c81750d
+  - enabled: 1
+    path: Assets/Scenes/Chapter3_Doc/Chapter3_Doc8.unity
+    guid: e66f3f0d43d88d74ab5f5b6dc79895f3
+  - enabled: 1
+    path: Assets/Scenes/Chapter3_2.unity
+    guid: 3dbe61d03d5ce3b47a3a7a24abd7b1cd
+  m_configObjects: {}

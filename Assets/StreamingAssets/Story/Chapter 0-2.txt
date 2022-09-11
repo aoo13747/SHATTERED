@@ -1,0 +1,33 @@
+narrator "ปัง ปัง ปัง ปัง" playSound(Auto_Bullet) playSound(Gunfire) playMusic(  )
+
+Yuno "ยูบิ !!!!! ขอตำแหน่งตัวประกันล่าสุดเดียวนี้!!!!!"
+
+Ubi "รับทราบ"  exit(Yuno)
+
+Ubi "โอเปอเรเตอร์, ตัวประกันอยู่ห้องถัดจากนี้ครับ"
+
+Yuno "รับทราบ พร้อมนะ"  exit(Ubi)
+
+narrator "โครมมมม"  playSound(door_kick)  exit(Yuno)
+
+Yuno "นี้เจ้าหน้าที่ตำรวจ ทิ้งอาวุธซะ!!!"
+
+Badguy "!!!" playSound(Gun_Slide)  exit(Yuno)
+
+Yuno "!!!"  exit(Badguy)
+
+narrator "ปัง!!!"  playMusic(null) playSound(JohnWick_Glock34)  exit(Yuno)
+
+Yuno "สวยแตกหนึ่ง"
+
+Ubi "สิ้นสุดการจำลอง" setBackground()  exit(Yuno)
+
+Ubi "ผลลัพธ์เป็นที่น่าเกรงขาม การทดสอบนี้เสร็จสมบูรณ์"
+
+Ubi "ยิงหัวตัวประกั...อะแฮ่มๆ ผู้ร้ายได้แม่นมากครับ, โอเปอเรเตอร์"
+
+Yuno "ง่ายๆ เนอะ"  changeExpression(Yuno,body,Yuno_smile02)  exit(Ubi)
+
+CloseLog
+
+NextCh
